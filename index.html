@@ -16,7 +16,7 @@
   <body id="home">
     <!-- Kore ga Nav-bar, da! -->
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top" style="background-color: #d4f0f0 ;">
-      <div class="container">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">YanIndra</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -45,9 +45,9 @@
     <section class="jumbotron text-center">
       <br>
       <img src="img/pp.jpg" alt="Adalah Yanin" width="200"
-       class="rounded-circle img-thumbnail" data-aos="fade-down" data-aos-duration="1000">
-      <h1 class="display-4" data-aos="fade-down"data-aos-duration="500">YanIndra</h1>
-      <p class="lead" data-aos="fade-right" data-aos-duration="1000">Student</p>
+       class="rounded-circle img-thumbnail">
+      <h1 class="display-4">YanIndra</h1>
+      <p class="lead">Student</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#55cbcd" fill-opacity="1" d="M0,288L34.3,256C68.6,224,137,160,206,138.7C274.3,117,343,139,411,170.7C480,203,549,245,617,266.7C685.7,288,754,288,823,288C891.4,288,960,288,1029,261.3C1097.1,235,1166,181,1234,144C1302.9,107,1371,85,1406,74.7L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
     </section>
     <!-- Jumbotron end -->
@@ -166,7 +166,7 @@
     <!-- Contact end -->
     <!-- Footer -->
 <footer class="text-center pb-4">
-  <p>Created with a lot of drinks and some effort by <a href="https://instagram.com/yanindra21/" class="text-dark fw-bold">YanIndra</a></p>
+  <p>Created with a lot of drinks and some effort by <a href="https://instagram.com/yanindra21/" target="_blank" class="text-dark fw-bold">YanIndra</a></p>
 
 </footer>
     <!-- Footer end -->
@@ -183,7 +183,11 @@
           .catch(error => console.error('Error!', error.message))
       })
     </script>
-    
+    <!-- gsap script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script>
+      gsap.from('jumbotron img', {duration: 1, y: -100, opacity: 0})
+    </script>
     <!-- Script AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
