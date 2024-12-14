@@ -1,0 +1,23 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanIndra21/portofolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YanIndra21/portofolio/issues"
+  },
+  "homepage": "https://github.com/YanIndra21/portofolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}
