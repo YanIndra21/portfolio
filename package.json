@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/YanIndra21/portofolio#readme",
   "devDependencies": {
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwindcss": "^3.4.16"
   }
 }
